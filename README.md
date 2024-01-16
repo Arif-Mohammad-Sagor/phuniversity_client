@@ -8,4 +8,10 @@ files:.enn files
 # module 5.2=>
 layout>MainLayout>import a layout from andDesign 
 # module 5.5=> 
-pages >Contact,About,Register,Login
+f= folder
+p= page or component
+
+pages >fAdmin,fFaculty,fStudent ,p(Contact,About,Register,Login) 
+
+# module 5.6 => 
+pages>admin>p(createFaculty,createAdmin) and set up them in router under admin routes
