@@ -15,3 +15,11 @@ pages >fAdmin,fFaculty,fStudent ,p(Contact,About,Register,Login)
 
 # module 5.6 => 
 pages>admin>p(createFaculty,createAdmin) and set up them in router under admin routes
+
+# module 5.10 =>
+ setup redux store 
+
+ # module 6.1 => 
+ make a utility function for admin,faculty and student dashboard routes 
+ # module 6.2=> 
+ make a utility function for admin,faculty and student sidebar items and segregate the Sider into a different component and use a switch statement for changing dashboard according to role.
